@@ -1,0 +1,42 @@
+body{
+    margin:0;
+    font-family: 'Open Sans',sans-serif;
+}
+
+.title
+{
+    text-shadow: 0 0 1px #010101;
+    font-weight: bold;
+}
+
+.underline
+{
+    border-bottom: 4px solid #0ea5e9;
+}
+.hero
+{
+    padding:4rem 15rem 10rem 2rem;
+    width:350px;
+    text-shadow: 0 0 1px black;
+}
+
+.container
+{
+    display: flex;
+    justify-content: left;
+    background-image: url("https://eoffice.net/wp-content/uploads/2017/02/colour-office-1024x684.jpg");
+    background-size:cover;
+    padding:50px;
+
+}
+
+.cta
+{
+    background-color:#0ea5e9;
+    padding:20px 30px;
+    font-family: "Open Sans", sans-serif;
+    font-weight:800;
+    color:white;
+    margin-top:30px;
+    border: none;
+}
