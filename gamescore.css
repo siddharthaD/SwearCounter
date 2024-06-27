@@ -21,6 +21,12 @@ button
     color:white;
     font-size: x-small;
     border-radius: 5px;
+    text-align: center;
+}
+.footer
+{
+    display: flex;
+    justify-content: center;
 }
 h1 {
     font-size: larger;
@@ -28,7 +34,7 @@ h1 {
 .score-card {
     font-family: orbitron, digital-clock-font, math;
     font-size: 3rem;
-    height: 25vh;
+    height: 8vh;
     background-color: black;
     margin-bottom: 5px;
 }
