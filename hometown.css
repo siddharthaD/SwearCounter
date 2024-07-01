@@ -1,0 +1,92 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+}
+
+img {
+    width: 100%;
+}
+
+h3
+{
+    margin:0;
+    padding:20px
+}
+
+#hero-header{
+    background-color: #457b90;
+}
+
+#hero-subheader{
+    background-color: #1D3557;
+    width:500px;
+}
+.hero{
+    background-image: url("https://www.hindustantimes.com/ht-img/img/2023/03/27/1600x900/The-Chhatrapati-Shivaji-Maharaj-Terminus--CSMT--st_1679944218052.jpg");
+    background-size:cover;
+    color:white;
+    text-align: center;
+    padding:5rem 0rem 8rem 0rem;
+    text-shadow: 0 0 1px black;
+    align-items: center;
+    flex-direction: column;
+    display:flex;
+}
+.activities{
+    color: #1D3557;
+    background:#F1FAEE;
+    margin:0;
+}
+.activity-list{
+    display: flex;
+    justify-content: space-around;
+    padding:10px 10px 10px 10px;
+}
+.contact-card
+{
+    padding:10px;
+    display:flex;
+    flex-direction: row-reverse ;
+    text-align: center;
+    border-bottom: 10px solid #1D3557;
+    background-color: #A8DADC;
+    color: #1D3557;
+    margin: 50px auto 0px auto;
+    width:400px;
+    border-radius: 10px;
+}
+#guide-info{
+    padding:10px;
+}
+
+#guide-avatar{
+    border-radius: 10px;
+    width:10rem;
+    height:15rem;
+    padding-right: 10px;
+}
+
+.activity-img
+{
+    height:100px;
+    width:100px;
+    border-radius: 75px;
+}
+.activity-category
+{
+    padding:20px 50px 0px 50px;
+    border: 1px solid black;
+    margin:20px;
+    border-radius: 10px;
+    width:250px;
+}
