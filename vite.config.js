@@ -15,7 +15,8 @@ export default {
               productpage:'productpage.html',
                 nft: resolve(__dirname, 'NFT/index.html'),
                 cookieconset: resolve(__dirname,'cookieconsent/cookie.html'),
-                coworking: resolve(__dirname,'CoWorking/index.html')
+                coworking: resolve(__dirname,'CoWorking/index.html'),
+                meme:resolve(__dirname,'meme/index.html')
               //   nft:'./NFT/swearcounter.html'
             }
           }
