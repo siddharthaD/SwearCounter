@@ -16,7 +16,8 @@ export default {
                 nft: resolve(__dirname, 'NFT/index.html'),
                 cookieconset: resolve(__dirname,'cookieconsent/cookie.html'),
                 coworking: resolve(__dirname,'CoWorking/index.html'),
-                meme:resolve(__dirname,'meme/index.html')
+                meme:resolve(__dirname,'meme/index.html'),
+                twimba: resolve(__dirname,'twimba/index.html')
               //   nft:'./NFT/swearcounter.html'
             }
           }

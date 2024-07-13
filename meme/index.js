@@ -10,6 +10,7 @@ const memeModalCloseBtn = document.getElementById('meme-modal-close-btn')
 emotionRadios.addEventListener('change', highlightCheckedOption)
 
 memeModalCloseBtn.addEventListener('click', closeModal)
+memeModal.addEventListener('click',closeModalOnOutside)
 
 getImageBtn.addEventListener('click', renderCat)
 
@@ -25,6 +26,10 @@ function closeModal(){
     memeModal.style.display = 'none'
 }
 
+function closeModalOnOutside(e)
+{
+    console.log(e.target.id)
+}
 function renderCat(){
     const catObject = getSingleCatObject()
     // language=HTML
