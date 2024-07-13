@@ -4,6 +4,7 @@ body{
     justify-content: center;
     align-items: center;
      height: 100vh;
+    font-family: 'Inter', Menlo, Monaco, Consolas, monospace, sans-serif;
 }
 nav ul{
     list-style-type: none;
@@ -36,7 +37,14 @@ li{
     justify-content: center;
 }
 
+li:hover{
+    box-shadow: 0 0 5px 5px rgba(252,70,107,1);
+}
 a {
-    color: #FFC53A;
+    color: #F2F0FA;
     text-decoration: none;
+}
+
+.emphasize{
+    box-shadow: 0 5px 10px 0 #5D46C3;
 }
