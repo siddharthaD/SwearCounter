@@ -47,4 +47,10 @@ a {
 
 .emphasize{
     box-shadow: 0 5px 10px 0 #5D46C3;
+    position: relative;
+}
+.emphasize span{
+    position: absolute;
+    top:5px;
+    left:5px;
 }

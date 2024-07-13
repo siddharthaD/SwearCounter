@@ -14,19 +14,8 @@ modalCloseBtn.addEventListener('click', function(){
 })
 
 declineBtn.addEventListener('mouseenter', function(){
-    modalChoiceBtns.classList.toggle('modal-choice-btns-reverse')
+    modalChoiceBtns.classList.toggle('modal-btns-reverse')
 })
-
-/*
-Challenge:
-1. Take control of the div holding the buttons.
-2. In swearcounter.css, set up a selector for a new class
-   that uses flex-direction to reverse the order
-   of its child elements.
-3. Toggle that class on the div holding the buttons
-   when a user's cursor hovers over the decline button.
-*/
-
 
 consentForm.addEventListener('submit', function(e){
     e.preventDefault()
@@ -36,7 +25,7 @@ consentForm.addEventListener('submit', function(e){
 
     modalText.innerHTML = `
     <div class="modal-inner-loading">
-        <img src="images/loading.svg" class="loading">
+        <img src="/images/loading.svg" class="loading">
         <p id="upload-text">Uploading your data to the dark web...</p>
     </div>`
 
@@ -51,7 +40,7 @@ consentForm.addEventListener('submit', function(e){
         <h2>Thanks <span class="modal-display-name">${fullName}</span>, you sucker! </h2>
         <p>We just sold the rights to your eternal soul.</p>
         <div class="idiot-gif">
-            <img src="images/pirate.gif">
+            <img src="/images/pirate.gif">
         </div>
     `
     modalCloseBtn.disabled = false
