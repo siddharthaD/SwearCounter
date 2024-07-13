@@ -1,4 +1,5 @@
-import { tweetsData } from './data.js'
+import {tweetsData} from './tweetData'
+
 import { v4 as uuidv4 } from 'https://jspm.dev/uuid';
 
 document.addEventListener('click', function(e){
@@ -56,7 +57,7 @@ function handleTweetBtnClick(){
     if(tweetInput.value){
         tweetsData.unshift({
             handle: `@HeroJs`,
-            profilePic: `images/twimba/scrimbalogo.png`,
+            profilePic: `/images/twimba/scrimbalogo.png`,
             likes: 0,
             retweets: 0,
             tweetText: tweetInput.value,
