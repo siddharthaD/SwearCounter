@@ -1,4 +1,4 @@
-import {tweetsData} from './tweetData'
+import {tweetsData} from '/twimba/tweetData'
 
 import { v4 as uuidv4 } from 'https://jspm.dev/uuid';
 
@@ -111,7 +111,7 @@ function getFeedHtml(){
         feedHtml += `
 <div class="tweet">
     <div class="tweet-inner">
-        <img src="${tweet.profilePic}" class="profile-pic">
+        <img src="/images/twimba/${tweet.profilePic}" class="profile-pic">
         <div>
             <p class="handle">${tweet.handle}</p>
             <p class="tweet-text">${tweet.tweetText}</p>
