@@ -1,5 +1,4 @@
-import {tweetsData} from '/twimba/tweetData'
-
+import {tweetsData} from '/twimba/tweetData.js'
 import { v4 as uuidv4 } from 'https://jspm.dev/uuid';
 
 document.addEventListener('click', function(e){
