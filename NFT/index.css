@@ -149,18 +149,32 @@ li:not(:last-child) {
     border-bottom: 1px dotted #a190b6;
 }
 
+.section-two-image-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+
+.feature-item{
+    flex: 1 220px;
+}
+.feature-image {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 4.6px;
+}
 /* ----- MEDIA QUERIES ----- */
 
-@media (min-width: 480px) {
-    .section-two-image-container {
-        display: flex;
-        justify-content: space-between;
-    }
+/*@media (min-width: 480px) {*/
+/*    .section-two-image-container {*/
+/*        display: flex;*/
+/*        justify-content: space-between;*/
+/*    }*/
 
-    .feature-image {
-        width: 48.8%;
-    }
-}
+/*    .feature-image {*/
+/*        width: 48.8%;*/
+/*    }*/
+/*}*/
 
 @media (min-width: 768px) {
     header,
