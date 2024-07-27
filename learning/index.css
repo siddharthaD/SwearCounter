@@ -1,0 +1,47 @@
+*,*::before, *::after{
+    margin: 0;
+    padding: 0;
+}
+
+.site-header{
+    font-family: Roboto, sans-serif;
+    font-size: 0.75rem;
+    font-weight: 700;
+    line-height: 1.125rem;
+    letter-spacing: -0.03em;
+    text-align: left;
+}
+
+.site-logo{
+    width:1em;
+    float: left;
+}
+
+header{
+    grid-area: head;
+    display: flex;
+    justify-content: space-between;
+    gap:0.5em;
+    height: 2em;
+    align-items: center;
+    width:100%;
+
+}
+header h1{
+    margin-right: auto;
+}
+header nav ul{
+    list-style: none;
+    gap: 1em;
+}
+nav ul li {
+    display: inline;
+
+}
+body{
+    display: grid;
+    grid-template-columns: 1px repeat(4,1fr) 1px;
+    gap:0.5em;
+    grid-template-areas: ". . . . . ."
+                         ". head head head head .";
+}
